@@ -1,0 +1,23 @@
+{
+  "name": "namasthe-react",
+  "version": "1.0.0",
+  "description": "Leran react",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhinand-SD/learn-react.git"
+  },
+  "keywords": [
+    "react",
+    "course"
+  ],
+  "author": "Abhinand sd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abhinand-SD/learn-react/issues"
+  },
+  "homepage": "https://github.com/Abhinand-SD/learn-react#readme"
+}
