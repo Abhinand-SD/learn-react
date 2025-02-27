@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Abhinand-SD/learn-react/issues"
   },
-  "homepage": "https://github.com/Abhinand-SD/learn-react#readme"
+  "homepage": "https://github.com/Abhinand-SD/learn-react#readme",
+  "devDependencies": {
+    "parcel": "^2.13.3"
+  }
 }
