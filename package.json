@@ -2,7 +2,7 @@
   "name": "namasthe-react",
   "version": "1.0.0",
   "description": "Leran react",
-  "main": "app.js",
+
   "scripts": {
     "test": "jest"
   },
