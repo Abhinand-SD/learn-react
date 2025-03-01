@@ -1,11 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client"
 
-
-const header = React.createElement("div", {}, [React.createElement("div", { id: "header2" }, [React.createElement("div", { id: "header2" }, React.createElement("h1", { id: "header2" }, "Frist heading"), React.createElement("div", { id: "header2" }, React.createElement("h1", { id: "header2" }, "second heading"))), React.createElement("div", { id: "header2" }, "ss")]), React.createElement("div", { id: "header2" }, React.createElement("h1", { id: "3rd" }, "thrid heading"))])
-
-
-const root = ReactDOM.createRoot(document.getElementById("root"))
-
+//REACT -  REact.createElement-js Object => HTML element
+header = React.createElement("h1", {}, "This is react code")
+root = ReactDOM.createRoot(document.getElementById("root"))
 root.render(header)
+
+
+// JSX -  jsx => React.CreateElement-js Object => HTML element 
+root = ReactDOM.createRoot(document.getElementById("root2"))
+const jsxHeading = <h1> This is JSX code</h1>
+root.render(jsxHeading)
 
