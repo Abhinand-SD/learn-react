@@ -33,19 +33,16 @@ root = ReactDOM.createRoot(document.getElementById("root4"))
 root.render(<HeadingComponent />)
 
 
-//function composition
-const Title = () => {
+//component composition
+const Title = () => (
     <h1>This is combonent combosition</h1>
-}
-
-
+)
 const Headingomponent2 = () => (
 
     <div id="container">
         <Title />
-        <h1>This is function combosition</h1>
+        <h1>This is function composition</h1>
     </div>
 )
-
 root = ReactDOM.createRoot(document.getElementById("root5"))
 root.render(<Headingomponent2 />)
