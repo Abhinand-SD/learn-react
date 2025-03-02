@@ -35,14 +35,30 @@ root.render(<HeadingComponent />)
 
 //component composition
 const Title = () => (
-    <h1>This is combonent combosition</h1>
+    <h1>Get this data</h1>
 )
 const Headingomponent2 = () => (
 
     <div id="container">
         <Title />
-        <h1>This is function composition</h1>
+        {/* or
+        <Title></Title>
+        or
+        {Title} */}
+        <h1>Place there</h1>
     </div>
 )
 root = ReactDOM.createRoot(document.getElementById("root5"))
 root.render(<Headingomponent2 />)
+
+
+//write js in HTMl
+const data = 1024
+const Headingomponent3 = () => (
+    
+    <div>
+        <h1>{data}</h1>
+    </div>
+)
+root = ReactDOM.createRoot(document.getElementById("root6"))
+root.render(<Headingomponent3 />)
