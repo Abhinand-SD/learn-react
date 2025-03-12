@@ -1,4 +1,4 @@
-# leran react
+# Learn react
 
 Why use CDN 
 what is crossorigin
