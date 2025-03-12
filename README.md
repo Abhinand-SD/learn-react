@@ -69,4 +69,43 @@ Config-driven UI
   -useEffect() 
 
 # Virtual Dom :-
-    is a representation of actual DOM(document object model) 
+    is a representation of actual DOM(document object model)
+# Condional statement 
+  if (listOfRestaurants.length === 0 ){
+   return  <shimmer />
+  }
+
+
+  # config drigrn UI
+
+  //if no dependency array => useEffect is called on every render
+  //if no dependency array is empty = [] => useEffect is called initial render(render)
+   //if no dependency array is [btnName] => called everytime btnName is update
+  useEffect(()=>{
+
+  },[])
+
+
+  # npm i react-router-dom for using defferent routers
+  const appRouter =createBrowserRouter([
+    {
+        path:"/",
+        element: <AppLayout/>,
+        errorElement: <Error/>
+    }
+])
+
+
+#  use Hook for error page becuse showing deataild error
+ import { useRouterError } from "react-router-dom"
+
+ # outlet from react-router-dom
+   using page load base on route
+   replce the article content
+
+# Link component
+  button link add for switch to aanother route   
+
+# 2 type routing in web apps
+  client side routing
+  server side routing      
