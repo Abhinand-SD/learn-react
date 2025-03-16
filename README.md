@@ -111,4 +111,9 @@ Config-driven UI
 
 # 2 type routing in web apps
   client side routing
-  server side routing  
+  server side routing 
+  
+# class base component
+  never update state veriables directly
+  use this.setState()
+  
