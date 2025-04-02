@@ -1,5 +1,5 @@
 
-# lern react
+# Lern Rect
 
 Why use CDN 
 what is crossorigin
