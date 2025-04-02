@@ -116,4 +116,22 @@ Config-driven UI
 # class base component
   never update state veriables directly
   use this.setState()
+
+ # About page
+   data fetch with Github API
+   
+ #Accordion
+  Crate from scratch
+  Build manually
+
+# Redux
+  Write data
+    dispatch(action)
+    fuction
+    updata data to redux store(slice)
+
+  Read data
+    Redux store(slice)
+    Selector(susscribing to the store)
+    update data(automatically)
   
