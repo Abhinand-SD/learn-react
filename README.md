@@ -124,7 +124,7 @@ Config-driven UI
   Crate from scratch
   Build manually
 
-# Redux
+# Redux Toolkit
   Write data
     dispatch(action)
     fuction
