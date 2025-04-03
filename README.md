@@ -125,6 +125,15 @@ Config-driven UI
   Build manually
 
 # Redux Toolkit
+
+# Redux Toolkit
+
+  - Install @reduxjs/toolkit and react-redux
+ - Build our store
+ - Connect our Store to our app
+ - Dispatch(action)
+ - Selector
+
   Write data
     dispatch(action)
     fuction
